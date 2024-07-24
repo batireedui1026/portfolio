@@ -1,8 +1,8 @@
 import { GoDotFill } from "react-icons/go";
 const About = () => {
   return (
-    <div className="flex justify-evenly pt-64">
-      <img className="w-96 h-auto" src="/image/stand.jpeg/" />
+    <div className="flex justify-evenly pt-64 bg-gray-100">
+      <img className="w-96  h-auto object-cover" src="/image/stand.jpeg/" />
       <div>
         <h2 className="text-bold font-semibold text-3xl pl-72">
           Curious about me? Here you have it:

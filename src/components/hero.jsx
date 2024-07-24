@@ -5,7 +5,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa";
 const Hero = () => {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between ">
       <div>
         <h1 className="font-bold text-3xl pl-32 pt-16">Hi, I’m Tom 👋</h1>
         <p className="pl-32 pt-4 text-gray-600">
@@ -37,7 +37,10 @@ const Hero = () => {
         </div>
       </div>
 
-      <img className="w-80 h-96 mt-16 mr-40" src="/image/cv.png/" />
+      <img
+        className="w-80 h-96 mt-16 mr-40 object-cover"
+        src="/image/cv.png/"
+      />
     </div>
   );
 };
