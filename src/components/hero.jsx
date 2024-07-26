@@ -5,9 +5,9 @@ import { FaTwitter } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa";
 const Hero = () => {
   return (
-    <div className="flex justify-between ">
+    <div className="flex justify-between  mb-32 max-sm:block  max-sm:justify-center">
       <div>
-        <h1 className="font-bold text-3xl pl-32 pt-16">Hi, I’m Tom 👋</h1>
+        <h1 className="font-bold text-3xl pl-32 pt-16">Hi, I’m Ireedui 👋</h1>
         <p className="pl-32 pt-4 text-gray-600">
           I specialize in full stack development, particularly with React.js and
           Node.js.
@@ -38,8 +38,8 @@ const Hero = () => {
       </div>
 
       <img
-        className="w-80 h-96 mt-16 mr-40 object-cover"
-        src="/image/cv.png/"
+        className="w-80 h-96 mt-16 mr-40 object-cover "
+        src="https://mail.google.com/mail/u/0?ui=2&ik=108f6e5c56&attid=0.2&permmsgid=msg-a:r5702192071865280734&th=190e7d6ab84ed8c0&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8nbwwPv41YOWyXGCsUp9bm-44bjpiRJavBiua87j_tH67tR65fQIo_afIcTBVntvk-SrAve1qmc80ZKEPd-UoQL3KK1Gykhk32eT38vJHT6fv9RH9MxqYnQb8&disp=emb&realattid=190e7d60ac8a557dee81"
       />
     </div>
   );

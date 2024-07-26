@@ -1,17 +1,17 @@
+import Tag from "./tag";
+
 const Skills = () => {
   return (
     <div>
-      <p className=" bg-teal-300 w-24 rounded mt-52  text-center ml-[1050px]">
-        skills
-      </p>
+      <Tag text="Skills" />
       <br />
-      <p className="text-center text-gray-400">
+      <p className="text-center text-gray-400  ">
         The skills, tools and technologies I am really good at:
       </p>
       <br />
       <br />
       <br />
-      <div className="flex gap-40 justify-center">
+      <div className="flex gap-40 justify-center ">
         <img
           className="w-16 h-16"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
@@ -45,7 +45,7 @@ const Skills = () => {
       <br />
       <br />
       <br />
-      <div className="flex gap-40 justify-center">
+      <div className="flex gap-40 justify-center mb-40">
         <img
           className="w-16 h-16"
           src="https://btech.id/media/images/Page/2023/04/05/postgresql-logo-1-350x220-90992449"
