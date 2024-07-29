@@ -2,7 +2,7 @@ import { GoDotFill } from "react-icons/go";
 
 const About = () => {
   return (
-    <div className="flex justify-evenly py-32 bg-gray-100 max-sm:block  max-sm:py-10  max-sm:justify-center">
+    <div className="flex justify-evenly py-32 dark:bg-gray-100 max-sm:block  max-sm:py-10  max-sm:justify-center ">
       <img
         className="w-96  h-auto object-cover max-sm:w-56"
         src="https://mail.google.com/mail/u/0?ui=2&ik=108f6e5c56&attid=0.1&permmsgid=msg-a:r5702192071865280734&th=190e7d6ab84ed8c0&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8SRxgaS_Q-NWe-3_2zqBhO7Dr1E_AzVfWIiUqlJEcMj6w3XD0qZ4ZriRQIUMnvpwgqVH5D2Em0Wr2IsOQ3ZmMr-OCw6RwtKKrSH668ExHDu78jgwB9TEUE2g0&disp=emb&realattid=190e7d699eb8e19b1632"

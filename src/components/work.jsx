@@ -6,7 +6,7 @@ const Work = () => {
       <p className="text-center pt-5 pb-10">
         Some of the noteworthy projects I have built
       </p>
-      <div className="flex justify-around bg-gray-100 w-[1156px] m-auto">
+      <div className="flex justify-around  dark:bg-gray-100 w-[1156px] m-auto">
         <div>
           <img
             className="w-[480px] h-96"
@@ -57,7 +57,7 @@ const Work = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-around bg-gray-100 w-[1156px] m-auto mt-14">
+      <div className="flex justify-around dark:bg-gray-100 w-[1156px] m-auto mt-14">
         <div>
           <h1 className="font-bold pt-12">Mentor hub</h1>
           <br />
@@ -109,7 +109,7 @@ const Work = () => {
           />
         </div>
       </div>
-      <div className="flex justify-around bg-gray-100 w-[1156px] m-auto mt-14">
+      <div className="flex justify-around dark:bg-gray-100 w-[1156px] m-auto mt-14">
         <div>
           <img
             className="w-[480px] h-96"
